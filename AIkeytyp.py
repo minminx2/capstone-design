@@ -18,7 +18,7 @@ from PySide6.QtCore import Qt, QObject, Signal, QThread
 # ===== 설정 =====
 SEQUENCE_LENGTH       = 20
 TCN_PATH              = 'final_model_unified_v3.pt'
-YOLO_PATH             = 'best(poker_light).pt
+YOLO_PATH             = 'best(poker_light).pt'
 DEBOUNCE_MS           = 200   # 같은 손에서 연속 입력 방지 (밀리초)
 
 # ▼▼▼ [추가] 카메라 선택 스위치 ▼▼▼
